@@ -160,6 +160,11 @@ vim.opt.cursorcolumn = true
 -- Minimal number of screen lines to keep above and below the cursor.
 vim.opt.scrolloff = 10
 
+-- Spell check
+vim.opt.spelllang = 'en,cs,cjk'
+vim.opt.spellsuggest = 'best,9'
+vim.opt.spell = true
+
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
 
